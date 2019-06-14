@@ -2916,8 +2916,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
-  border-color: #343a40;
+  color: black;
+  border-color: black;
 }
 
 .btn-outline-dark:hover {
@@ -2966,13 +2966,13 @@ fieldset:disabled a.btn {
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
   pointer-events: none;
+  
 }
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {

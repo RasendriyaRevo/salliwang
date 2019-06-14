@@ -2,9 +2,9 @@
 @section('title','SALLI WANG PRODUCTION')
 @section('head')
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:transparent">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:black">
     <div class="container" id="navbar">
-        <a class="navbar-brand" href="#"><img style="max-width:25%;max-height:25%" src="img/logo.gif"></a>
+        <a class="navbar-brand" href="#"><img style="width:100pt;height:30pt" src="img/logo.jpg"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -14,8 +14,8 @@
         <div class="navbar-nav my-2 my-lg-0">
             <a class="nav-item nav-link" href="#" style="color:white">Home</a>
             <a class="nav-item nav-link" href="#" style="color:white">Portofolio</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="#" style="color:white">About</a>
+            <a class="nav-item nav-link" href="#" style="color:white">Contact</a>
         </div>
     </div>
 </nav>
@@ -28,11 +28,9 @@
 <!-- Page 1 -->
 <div id="background1">
     <div class="container-fluid page1">
-        <div class="jumbotron">
-                <div class="tengah">
-                    <h1>CREATIVE PRODUCTION AGENCY</h1>
-                    <p><button type="button" class="btn btn-outline-dark btn-lg">READ MORE</button></p>  
-                </div>
+        <div class="tengah">
+            <h1>CREATIVE PRODUCTION AGENCY</h1>
+            <p><button type="button" class="btn btn-outline-dark btn-lg" style="border-radius:0rem;border-color:black;color:black;border-width:2pt"><b>READ MORE</b></button></p>  
         </div>
     </div>
 </div>
@@ -106,11 +104,11 @@
             <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/7.png"></div>
             <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/8.png"></div>
         </div>
-        <div class="row partner2">
-            <div class="col-lg-4"><img class="img-responsive" src="img/p1.png" ></div>
-            <div class="col-lg-4"><img class="img-responsive" src="img/p2.png"></div>
-            <div class="col-lg-4"><img class="img-responsive" src="img/p3.png"></div>
-        </div>
+    </div>
+    <div class="konten">
+        <div class="item1"><img style="width:100%;height:100%" src="img/p1.png"></div>
+        <div class="item2"><img style="width:100%;height:100%" src="img/p2.png"></div>
+        <div class="item3"><img style="width:100%;" src="img/p3.png"></div>
     </div>
 </div>
 
@@ -125,9 +123,9 @@
     <div class="container-fluid bawah">
         <h3>OUR WORK ON PROGRESS</h3>
         <div class="row">
-            <div class="col-lg-4"><p>client</p></div>
-            <div class="col-lg-4"><p>project completed</p></div>
-            <div class="col-lg-4"><p>design completed</p></div>
+            <div class="col-lg-4"><h1 style="color:white">50</h1><p>client</p></div>
+            <div class="col-lg-4"><h1 style="color:white">130</h1><p>project completed</p></div>
+            <div class="col-lg-4"><h1 style="color:white">170</h1><p>design completed</p></div>
         </div>
     </div>
 </div>
@@ -137,27 +135,27 @@
 <!-- Page 5 -->
 
 <div id="page5">
-    <h4>REQUEST A QOUTE</h4>
+    <b><h4>REQUEST A QOUTE</h4></b>
     <div class="container">
         <form>
         <label for="name">Name</label>
             <div class="form-row">
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" placeholder="First name">
+                    <input type="text" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" placeholder="First">
                 </div>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" placeholder="Last name">
+                    <input type="text" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" placeholder="Last">
                 </div>
             </div>
-            <div class="form-group col-sm-4">
+            <div class="form-group col-sm-4" style="padding-left:0px; margin-top:12px;">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <input type="email" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" id="inputEmail4">
             </div>
-            <div class="form-group col-sm-6">
+            <div class="form-group col-sm-6" style="padding-left:0px;">
                 <label for="help">What can we help you with?</label>
-                <textarea class="form-control" id="help" rows="8"></textarea>
+                <textarea class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" id="help" rows="6"></textarea>
             </div>
-            <button type="button" class="btn btn-dark">REQUEST NOW</button>
+            <p><button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:black;border-width:2pt">REQUEST NOW</button></p>
         </form>
     </div>
 </div>
@@ -172,31 +170,31 @@
             <div class="col-sm-3">
                 <h4>SW Production</h4>
                 <nav class="nav flex-column">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Portofolio</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Home</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Portofolio</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">About</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Contact</a>
                 </nav>
             </div>
             <div class="col-sm-3">
                 <h4>About</h4>
                 <nav class="nav flex-column">
-                    <a class="nav-link" href="#">Our Process</a>
-                    <a class="nav-link" href="#">FAQ</a>
-                    <a class="nav-link" href="#">Privacy Policy</a>
-                    <a class="nav-link" href="#">Terms & Conditions</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Our Process</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">FAQ</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Privacy Policy</a>
+                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Terms & Conditions</a>
                 </nav>
             </div>
             <div class="col-sm-3">
                 <h4>Email Newsletter</h4>
                 <div class="form-group">
                     <label for="email"><p>Get SW Production new content, updates, survey & offers</p></label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <input type="email" class="form-control" id="inputEmail4" style="border-radius:0; padding:0 0;" placeholder="Email Address">
                 </div>
-                <button type="button" class="btn btn-dark">Subscribe</button>
+                <button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:white;border-width:2pt; padding: 0.3rem 1.5rem">SUBSCRIBE</button>
             </div>
         </div>
-        <p>Designed by SW Production | Copyright © 2017 SWPRODUCTIONID</p>
+        <p style-"background-image:0;">Designed by SW Production | Copyright © 2017 SWPRODUCTIONID</p>
     </div>
 </div>
 @endsection

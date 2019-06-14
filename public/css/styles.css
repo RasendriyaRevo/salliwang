@@ -13,6 +13,26 @@ body{
     src: url("../../font/Proxima Nova-Sbold.otf");
 }
 
+.konten{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.item1{
+    display: grid;
+    grid-column: 1/2;
+}
+
+.item2{
+    display: grid;
+    grid-column: 2/3;
+}
+
+.item3{
+    display: grid;
+    grid-column: 3/4;
+}
+
 #background1{
     background:url(../../img/back1.png) no-repeat;
     background-size:100%;
@@ -20,21 +40,14 @@ body{
     height: 100%;
 }
 
-#background1 .jumbotron{
-    background:none;
-    margin-left:137px;
-    max-width:1280px;
-    margin-top:22px;
-}
-
-#background1 .jumbotron h1{
+#background1 h1{
     font-family: 'PNovareg';
     font-size: 39pt;
     color:black;
     margin-bottom:40px;
 }
 
-#background1 .jumbotron p{
+#background1 p{
     font-family: 'PNovareg';
     font-size: 24pt;
     color:black;
@@ -43,7 +56,7 @@ body{
 .tengah{
     position: absolute;
     left: 0;
-    top: 50%;
+    margin-top: 25%;
     width: 100%;
     text-align: center;
 }
@@ -162,8 +175,11 @@ body{
     font-size: 18pt;
 }
 
+#page4 .container-fluid.bawah h1{
+    margin-top:20%;
+}
 #page4 .container-fluid.bawah p{
-    padding-top: 38%;
+    margin-top:10%;
     color: #ffffff;
     font-family: "PNovasbold";
     font-size: 16pt;
@@ -178,12 +194,16 @@ body{
     padding-bottom: 2%;
     text-align: center;
     font-family: "PNovasbold";
-    font-size: 20pt;
+    font-size: 16pt;
+}
+
+#page5 p{
+    font-family: "PNovasbold";
 }
 
 #page5 label{
     font-family: "PNovareg";
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 #foot{
@@ -194,6 +214,7 @@ body{
 
 #foot .container{
     background: none;
+    font-family: "PNovasbold";
 }
 
 #foot h4{
@@ -210,6 +231,7 @@ body{
 #foot p{
     font-family: "PNovasbold";
     color:white;
-    padding-top:2%;
-    padding-bottom: 3%;
+    padding-top:3%;
+    padding-bottom: 1%;
+    margin-bottom: 0;
 }
