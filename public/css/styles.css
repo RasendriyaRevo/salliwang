@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    background-color: #ffffff
+}
+
+@font-face{
+    font-family: "PNovareg";
+    src: url("../../font/ProximaNova-Regular.otf");
+}
+
+@font-face{
+    font-family: "PNovasbold";
+    src: url("../../font/Proxima Nova-Sbold.otf");
+}
+
+#background1{
+    background:url(../../img/back1.png) no-repeat;
+    background-size:100%;
+    width: 100%;
+    height: 100%;
+}
+
+#background1 .jumbotron{
+    background:none;
+    margin-left:137px;
+    max-width:1280px;
+    margin-top:22px;
+}
+
+#background1 .jumbotron h1{
+    font-family: 'PNovareg';
+    font-size: 39pt;
+    color:black;
+    margin-bottom:40px;
+}
+
+#background1 .jumbotron p{
+    font-family: 'PNovareg';
+    font-size: 24pt;
+    color:black;
+}
+
+.tengah{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.promo{
+    position: absolute;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#page2{
+    text-align: center;
+}
+
+#page2 .isi .container.atas{
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+#page2 .isi .container.atas h4{
+    font-family: "PNovasbold";
+    font-size: 16pt;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#page2 p{
+    font-family: "PNovareg";
+    font-size: 11pt;
+    color: #666666;
+}
+
+#background2{
+    left: 0;
+    top:0;
+    background:url(../../img/back2.png) no-repeat;
+    background-size:100%;
+    height: 50%;
+    width: 100%;
+}
+
+#background2 .container-fluid{
+    background: rgb(0, 0, 0, 0.5);
+    height: 96%;
+    width: 100%;
+}
+
+#background2 .container-fluid .row .col{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#background2 h2{
+    font-family: "PNovasbold";
+    font-size: 35pt;
+    color: #ffffff;
+    text-align: left;
+}
+
+#background2 p{
+    font-family: "PNovareg";
+    font-size: 16pt;
+    color: #ffffff;
+    text-align: left;
+}
+
+#page3 .jumbotron{
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+}
+
+#page3 .container .row.partner{
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+#page3 h3{
+    font-family: "PNovasbold";
+    font-size: 18pt;
+    color: #000000;
+}
+
+#page3 .container .row.partner img{
+    padding-top: 15%;
+    max-width:55%
+}
+
+#page3 .container .row.partner2 .col-lg-4 img{
+    max-width:100%;
+}
+
+#page4 .container-fluid.atas{
+    background: #ffffff;
+    height: 96%;
+    width: 100%;
+}
+
+#page4 .container-fluid.bawah{
+    text-align: center;
+    background: #000000;
+    height: 40%
+}
+
+#page4 .container-fluid.bawah h3{
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: "PNovasbold";
+    font-size: 18pt;
+}
+
+#page4 .container-fluid.bawah p{
+    padding-top: 38%;
+    color: #ffffff;
+    font-family: "PNovasbold";
+    font-size: 16pt;
+}
+
+#page5 .container{
+    padding-left: 25%;
+}
+
+#page5 h4{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: "PNovasbold";
+    font-size: 20pt;
+}
+
+#page5 label{
+    font-family: "PNovareg";
+    font-size: 14pt;
+}
+
+#foot{
+    background:black;
+    max-width: 100%;
+    margin-bottom: -5%;
+}
+
+#foot .container{
+    background: none;
+}
+
+#foot h4{
+    font-family: "PNovareg";
+    padding-top:5%;
+    color: white;
+}
+
+#foot a{
+    font-family: "PNovareg";
+    color: white;
+}
+
+#foot p{
+    font-family: "PNovasbold";
+    color:white;
+    padding-top:2%;
+    padding-bottom: 3%;
+}
