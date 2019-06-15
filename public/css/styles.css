@@ -194,6 +194,10 @@ body{
     max-width:100%;
 }
 
+#page3 #slidepartner .carousel-inner .carousel-item{
+    height: 50%;
+}
+
 #page4 .container-fluid.atas{
     background: #ffffff;
     height: 96%;
