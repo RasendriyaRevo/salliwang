@@ -13,6 +13,44 @@ body{
     src: url("../../font/Proxima Nova-Sbold.otf");
 }
 
+#nav{
+    height: 70px;
+    background: transparent;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+}
+
+#nav.shrink{
+    height: 70px;
+    transition: all ease .5s;
+    background: black;
+}
+
+#nav.shrink #navbar{
+    transition: all ease .5s;
+}
+
+#nav a.logo{
+    background:url(../../img/logoa.png) no-repeat;
+    width: 25%;
+    height:40pt;
+}
+
+.collapse .navbar-nav{
+    padding-left: 82%;
+}
+
+.collapse .navbar-nav .nav-item{
+    padding-right: 20px;
+}
+
+.navbar .container{
+    margin-left: 0%;
+}
+
 .konten{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;

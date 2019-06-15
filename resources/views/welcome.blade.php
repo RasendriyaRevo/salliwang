@@ -2,20 +2,20 @@
 @section('title','SALLI WANG PRODUCTION')
 @section('head')
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:black">
+<nav class="navbar navbar-expand-lg navbar-light" id="nav">
     <div class="container" id="navbar">
-        <a class="navbar-brand" href="#"><img style="width:100pt;height:30pt" src="img/logo.jpg"></a>
+        <a class="navbar-brand logo" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav my-2 my-lg-0">
-            <a class="nav-item nav-link" href="#" style="color:white">Home</a>
-            <a class="nav-item nav-link" href="#" style="color:white">Portofolio</a>
-            <a class="nav-item nav-link" href="#" style="color:white">About</a>
-            <a class="nav-item nav-link" href="#" style="color:white">Contact</a>
+    
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav my-2 my-lg-0">
+                    <a class="white nav-item nav-link" href="#" style="color:white">Home</a>
+                    <a class="white nav-item nav-link" href="#" style="color:white">Portofolio</a>
+                    <a class="black nav-item nav-link" href="#" style="color:black">About</a>
+                    <a class="black nav-item nav-link" href="#" style="color:black">Contact</a>
+            </div>
         </div>
     </div>
 </nav>
@@ -90,9 +90,7 @@
 <div id="page3">
     <div class="container">
         <div class="jumbotron">
-            <center>
-                <h3>OUR CLIENT FROM ARROUND THE WORLD</h3>
-            </center>
+            <h3>OUR CLIENT FROM ARROUND THE WORLD</h3>
         </div>
         <div class="row partner">
             <div class="col-sm-3 atas"><img class="img-responsive" src="/img/1.png"></div>
@@ -108,7 +106,7 @@
     <div class="konten">
         <div class="item1"><img style="width:100%;height:100%" src="img/p1.png"></div>
         <div class="item2"><img style="width:100%;height:100%" src="img/p2.png"></div>
-        <div class="item3"><img style="width:100%;" src="img/p3.png"></div>
+        <div class="item3"><img style="width:100%;height:100%" src="img/p3.png"></div>
     </div>
 </div>
 
@@ -194,7 +192,7 @@
                 <button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:white;border-width:2pt; padding: 0.3rem 1.5rem">SUBSCRIBE</button>
             </div>
         </div>
-        <p style-"background-image:0;">Designed by SW Production | Copyright © 2017 SWPRODUCTIONID</p>
+        <p>Designed by SW Production | Copyright © 2017 SWPRODUCTIONID</p>
     </div>
 </div>
 @endsection
