@@ -3,18 +3,18 @@
 @section('head')
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-    <div class="container" id="navbar">
+    <div class="container-fluid" id="navbar">
         <a class="navbar-brand logo" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
             <div class="navbar-nav my-2 my-lg-0">
-                    <a class="white nav-item nav-link" href="#" style="color:white">Home</a>
-                    <a class="white nav-item nav-link" href="#" style="color:white">Portofolio</a>
-                    <a class="black nav-item nav-link" href="#" style="color:black">About</a>
-                    <a class="black nav-item nav-link" href="#" style="color:black">Contact</a>
+                    <a class="white nav-item nav-link" href="#background1" style="color:white">Home</a>
+                    <a class="white nav-item nav-link" href="#page4" style="color:white">Portofolio</a>
+                    <a class="black nav-item nav-link" href="#page2" style="color:black">About</a>
+                    <a class="black nav-item nav-link" href="#page5" style="color:black">Contact</a>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
     <div class="container-fluid page1">
         <div class="tengah">
             <h1>CREATIVE PRODUCTION AGENCY</h1>
-            <p><button type="button" class="btn btn-outline-dark btn-lg" style="border-radius:0rem;border-color:black;color:black;border-width:2pt"><b>READ MORE</b></button></p>  
+            <p><button type="button" class="btn btn-outline-dark btn-lg"><b>READ MORE</b></button></p>  
         </div>
     </div>
 </div>
@@ -168,22 +168,23 @@
         <form>
         <label for="name">Name</label>
             <div class="form-row">
-                <div class="col-sm-3">
+                <div class="col-sm-6">
                     <input type="text" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" placeholder="First">
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6">
                     <input type="text" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" placeholder="Last">
                 </div>
             </div>
-            <div class="form-group col-sm-4" style="padding-left:0px; margin-top:12px;">
+            <div class="form-group col-sm-8" style="padding-left:0px; margin-top:12px;">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" id="inputEmail4">
             </div>
-            <div class="form-group col-sm-6" style="padding-left:0px;">
+            <div class="form-group col-sm-12" style="padding-left:0px; padding-right:0px;">
                 <label for="help">What can we help you with?</label>
                 <textarea class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" id="help" rows="6"></textarea>
             </div>
-            <p><button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:black;border-width:2pt">REQUEST NOW</button></p>
+            <p><button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:black;border-width:2pt;font-size:15;
+            padding:0.375rem 1.5rem">REQUEST NOW</button></p>
         </form>
     </div>
 </div>
@@ -194,7 +195,7 @@
 @section('foot')
 <div id="foot">
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin-left:-100px;">
             <div class="col-sm-3">
                 <h4>SW Production</h4>
                 <nav class="nav flex-column">
@@ -204,7 +205,7 @@
                     <a class="nav-link" style="padding: .5rem 0px;" href="#">Contact</a>
                 </nav>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-left:70px;">
                 <h4>About</h4>
                 <nav class="nav flex-column">
                     <a class="nav-link" style="padding: .5rem 0px;" href="#">Our Process</a>
@@ -216,13 +217,13 @@
             <div class="col-sm-3">
                 <h4>Email Newsletter</h4>
                 <div class="form-group">
-                    <label for="email"><p>Get SW Production new content, updates, survey & offers</p></label>
-                    <input type="email" class="form-control" id="inputEmail4" style="border-radius:0; padding:0 0;" placeholder="Email Address">
+                    <label for="email"><h5>Get SW Production new content, updates, survey & offers</h5></label>
+                    <input type="email" class="form-control" id="inputEmail4" style="height:auto; border-radius:0; padding:0 0;" placeholder="Email Address">
                 </div>
                 <button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:white;border-width:2pt; padding: 0.3rem 1.5rem">SUBSCRIBE</button>
             </div>
         </div>
-        <p>Designed by SW Production | Copyright © 2017 SWPRODUCTIONID</p>
+        <p style="margin-left:-100px; padding-left:15;">Designed by <b>SW Production</b> | Copyright © 2017 <b>SWPRODUCTIONID</b></p>
     </div>
 </div>
 @endsection
