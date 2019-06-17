@@ -93,50 +93,42 @@
             <h3>OUR CLIENT FROM ARROUND THE WORLD</h3>
         </div>
         <div id="slidepartner" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slidepartner" style="background-color:#000000;" data-slide-to="0" class="active"></li>
+                <li data-target="#slidepartner" style="background-color:#000000;" data-slide-to="1"></li>
+            </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/1.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/4.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/5.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/6.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/7.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/8.png"></div>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/INewsTv.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/VIK.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/JNE.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Sequislife.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Allianz.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Tereos FKS.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/IITC Solution.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Ca2con.png"></div></a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/2.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/2.png"></div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row partner">
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 atas"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/3.png"></div>
-                        <div class="col-sm-3 bawah"><img class="img-responsive" src="/img/3.png"></div>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/J&T.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Tokio Marine.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Hora.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Squeeze.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/BSP.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Nutify.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Logo Jeunesse.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/You.png"></div></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="konten">
-        <div class="item1"><img style="width:100%;height:100%" src="img/p1.png"></div>
-        <div class="item2"><img style="width:100%;height:100%" src="img/p2.png"></div>
-        <div class="item3"><img style="width:100%;height:100%" src="img/p3.png"></div>
+        <div class="item1"><img style="width:100%;height:100%" src="img/P1.png"></div>
+        <div class="item2"><img style="width:100%;height:100%" src="img/P2.png"></div>
+        <div class="item3"><img style="width:100%;height:100%" src="img/P3.png"></div>
     </div>
 </div>
 
@@ -146,7 +138,26 @@
 
 <div id="page4">
     <div class="container-fluid atas">
-        
+        <div id="portofolio" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="../../img/Portofolio/A.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/B.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/C.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/D.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/E.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/F.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/G.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/H.jpg"></div>
+                <div class="carousel-item"><img src="../../img/Portofolio/I.jpg"></div>
+            </div>
+
+            <a class="carousel-control-prev" data-target="#portofolio" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" data-target="#portofolio" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
     <div class="container-fluid bawah">
         <h3>OUR WORK ON PROGRESS</h3>

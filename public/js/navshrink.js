@@ -3,12 +3,14 @@ $(document).ready(function(){
         if($(document).scrollTop() > 100){
             $('#nav').addClass('shrink');
             $("#nav a").css('color', 'white');
-            $("#nav a.logo").css('background','url(../../img/logob.png) no-repeat');
+            $("#nav a.logo").css('background','url(../../img/SWProductionWhite.png) no-repeat');
+            $("#nav a.logo").css('background-size','100%');
         }else{
             $('#nav').removeClass('shrink');
             $("#nav a.black").css('color', 'black');
             $("#nav a.white").css('color', 'white');
-            $("#nav a.logo").css('background','url(../../img/logoa.png) no-repeat');
+            $("#nav a.logo").css('background','url(../../img/SWProductionBlack.png) no-repeat');
+            $("#nav a.logo").css('background-size','100%');
         }
     });
 });
