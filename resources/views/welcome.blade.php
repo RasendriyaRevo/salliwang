@@ -42,19 +42,19 @@
         <div class="container atas">
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="img-circle" src="/img/fast.png">
+                    <img class="img-circle" src="img/fast.png">
                     <h4>Fast Turnaround</h4>
                     <p class="text-center">We make it easy for you to plan your promotions. 
                     We offer you fast turnaround, sending you intial design within 24 hours.</p>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-circle" src="/img/quality.png">
+                    <img class="img-circle" src="img/quality.png">
                     <h4>Quality Design</h4>
                     <p class="text-center">We strive for quality design and keep improving it from time to time. 
                     Our team also provide great services. Your satisfaction is our priority.</p>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-circle" src="/img/professional.png">
+                    <img class="img-circle" src="img/professional.png">
                     <h4>Professional Team</h4>
                     <p class="text-center">Cooperation is the key to success.
                     We always work in team to get the best result. Every of us will have our own job description.</p>
@@ -93,33 +93,29 @@
             <h3>OUR CLIENT FROM ARROUND THE WORLD</h3>
         </div>
         <div id="slidepartner" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#slidepartner" style="background-color:#000000;" data-slide-to="0" class="active"></li>
-                <li data-target="#slidepartner" style="background-color:#000000;" data-slide-to="1"></li>
-            </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/INewsTv.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/VIK.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/JNE.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Sequislife.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Allianz.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Tereos FKS.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/IITC Solution.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Ca2con.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/iNewsTv.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/VIK.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/JNE.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Sequislife.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Allianz.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Tereos FKS.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/IITC Solution.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Ca2con.png"></div></a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/J&T.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Tokio Marine.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Hora.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="/img/partner/Squeeze.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/BSP.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Nutify.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/Logo Jeunesse.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="/img/partner/You.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/J&T.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Tokio Marine.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Hora.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Squeeze.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/BSP.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Nutify.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Logo Jeunesse.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/You.png"></div></a>
                     </div>
                 </div>
             </div>
@@ -140,15 +136,15 @@
     <div class="container-fluid atas">
         <div id="portofolio" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active"><img src="../../img/Portofolio/A.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/B.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/C.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/D.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/E.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/F.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/G.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/H.jpg"></div>
-                <div class="carousel-item"><img src="../../img/Portofolio/I.jpg"></div>
+                <div class="carousel-item active"><img src="img/Portofolio/A.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/B.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/C.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/D.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/E.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/F.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/G.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/H.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/I.jpg"></div>
             </div>
 
             <a class="carousel-control-prev" data-target="#portofolio" data-slide="prev">
@@ -206,7 +202,7 @@
 @section('foot')
 <div id="foot">
     <div class="container">
-        <div class="row" style="margin-left:-100px;">
+        <div class="row" style="margin-left:-8%;">
             <div class="col-sm-3">
                 <h4>SW Production</h4>
                 <nav class="nav flex-column">
@@ -234,7 +230,7 @@
                 <button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:white;border-width:2pt; padding: 0.3rem 1.5rem">SUBSCRIBE</button>
             </div>
         </div>
-        <p style="margin-left:-100px; padding-left:15;">Designed by <b>SW Production</b> | Copyright © 2017 <b>SWPRODUCTIONID</b></p>
+        <p style="margin-left:-8%; padding-left:15;">Designed by <b>SW Production</b> | Copyright © 2017 <b>SWPRODUCTIONID</b></p>
     </div>
 </div>
 @endsection

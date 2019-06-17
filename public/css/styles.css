@@ -5,12 +5,12 @@ body{
 
 @font-face{
     font-family: "PNovareg";
-    src: url("../../font/ProximaNova-Regular.otf");
+    src: url("../font/ProximaNova-Regular.otf");
 }
 
 @font-face{
     font-family: "PNovasbold";
-    src: url("../../font/Proxima Nova-Sbold.otf");
+    src: url("../font/Proxima Nova-Sbold.otf");
 }
 
 .carousel-control-prev-icon {
@@ -42,7 +42,7 @@ body{
 }
 
 #nav a.logo{
-    background:url(../../img/SWProductionBlack.png) no-repeat;
+    background:url(../img/SWProductionBlack.png) no-repeat;
     background-size:100%;
     width:15%;
     height:40px;
@@ -65,20 +65,23 @@ body{
 .item1{
     display: grid;
     grid-column: 1/2;
+    max-height: 210px;
 }
 
 .item2{
     display: grid;
     grid-column: 2/3;
+    max-height: 210px;
 }
 
 .item3{
     display: grid;
     grid-column: 3/4;
+    max-height: 210px;
 }
 
 #background1{
-    background:url(../../img/Background1.png) no-repeat;
+    background:url(../img/Background1.png) no-repeat;
     background-size:100%;
     width: 100%;
     height: 100%;
@@ -151,7 +154,7 @@ body{
 #background2{
     left: 0;
     top:0;
-    background:url(../../img/Background2.png) no-repeat;
+    background:url(../img/Background2.png) no-repeat;
     background-size:100%;
     max-height: 678px;
     max-width: 100%;
@@ -181,10 +184,11 @@ body{
     left: 0;
     top: 0;
     background-color: #ffffff;
+    margin-bottom:0px;
 }
 
 #page3 .container .row.partner{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-left: 10%;
 }
 
@@ -195,7 +199,6 @@ body{
 }
 
 #page3 .container .row.partner img{
-    padding-top: 15%;
     max-width:75%
 }
 
