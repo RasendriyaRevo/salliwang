@@ -92,26 +92,26 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/iNewsTv.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/VIK.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/JNE.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Sequislife.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Allianz.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Tereos FKS.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/IITC Solution.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Ca2con.png"></div></a>
+                        <div class="col-xs-2 col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/iNewsTv.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/VIK.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/JNE.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Sequislife.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Allianz.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Tereos FKS.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/IITC Solution.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Ca2con.png"></div></a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/J&T.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Tokio Marine.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Hora.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Squeeze.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/BSP.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Nutify.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Logo Jeunesse.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/You.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/J&T.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Tokio Marine.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Hora.png"></div></a>
+                        <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Squeeze.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/BSP.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Nutify.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Logo Jeunesse.png"></div></a>
+                        <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/You.png"></div></a>
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@
 <div id="foot">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3" style="margin-left:30px;">
+            <div class="col-sm-3">
                 <h4>SWPRODUCTIONID</h4>
                 <nav class="nav flex-column">
                     <a class="nav-link" href="#">Home</a>
@@ -212,7 +212,7 @@
                     <a class="nav-link"" href="#">Contact</a>
                 </nav>
             </div>
-            <div class="col-sm-3" style="margin-left:15 px;">
+            <div class="col-sm-3">
                 <h4>About</h4>
                 <nav class="nav flex-column">
                     <a class="nav-link" href="#">Our Process</a>
@@ -230,7 +230,7 @@
                 <button type="button" class="btn btn-dark" >SUBSCRIBE</button>
             </div>
         </div>
-        <p style="margin-left:30px;">Designed by <b>SWPRODUCTIONID</b> | Copyright © 2019 <b>SWPRODUCTIONID</b></p>
+        <p>Designed by <b>SWPRODUCTIONID</b> | Copyright © 2019 <b>SWPRODUCTIONID</b></p>
     </div>
 </div>
 @endsection

@@ -243,6 +243,11 @@ body{
     font-family: "PNovasbold";
 }
 
+
+#foot .container-fluid .row .col-sm-3{
+    margin-left: 30px;
+}
+
 #foot h4{
     font-family: "PNovareg";
     font-weight: 700;
@@ -284,60 +289,50 @@ body{
 }
 
 @media screen and (max-width: 500px){
+    #nav a.logo{
+        width: 25%;
+    }
+
     #home{
         height: 45%;
+    }
+
+    #home h1{
+        font-size: 18px;
+    }
+
+    #background2{
+        background-size: auto;
     }
 
     #Portofolio .container-fluid.atas{
         height: 40%;
     }
-}
 
-@media screen and (max-width: 992px){
-    #home{
-        height: 80%;
-    }
-
-    #Portofolio .container-fluid.bawah .col-lg-4{
-        width: 33.3%;
-    }
-
-    #Portofolio .container-fluid.bawah{
-        height: auto;
-    }
-
-    #Portofolio .container-fluid.bawah h1,
-    #Portofolio .container-fluid.bawah p{
-        margin-top:10px;
-    }
-}
-
-@media screen and (max-width: 1280px){
-    #nav a.logo{
-        width: 200px;
-    }
-
-    #background2 h2{
-        margin:30px 20px;
-        font-size: 32pt;
-    }
-    
-    #background2 p{
-        line-height: 1.3;
-        margin:30px 20px;
-        font-size: 16pt;
+    #Client .container .row.partner{
+        text-align: center;
+        padding-left: 0%;
     }
 
     #konten img{
-        max-height:190px;
+        max-height: 120px;
     }
 
-    #Portofolio .container-fluid.atas{
-        height: 90%;
+    #Contact .container{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    #Portofolio .container-fluid.bawah h1,
-    #Portofolio .container-fluid.bawah p{
-        margin-top:10px;
+    #Contact .container .form-row{
+        flex-wrap: unset;
+    }
+
+    #foot .container-fluid .row .col-sm-3,
+    #foot .container-fluid p{
+        margin-left: 20px;
+    }
+
+    #foot .container-fluid .row .col-sm-3 .form-group{
+        margin-right: 20px;
     }
 }
