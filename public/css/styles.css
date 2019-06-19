@@ -37,76 +37,41 @@ body{
     background: black;
 }
 
-#nav.shrink #navbar{
-    transition: all ease .5s;
-}
-
 #nav a.logo{
     background:url(../img/SWProductionBlack.png) no-repeat;
     background-size:100%;
     width:15%;
     height:40px;
+    margin-left: 10px;
 }
 
-.navbar .container{
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.collapse .navbar-nav .nav-item{
-    padding-right: 20px;
-}
-
-.konten{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-}
-
-.item1{
-    display: grid;
-    grid-column: 1/2;
-    max-height: 210px;
-}
-
-.item2{
-    display: grid;
-    grid-column: 2/3;
-    max-height: 210px;
-}
-
-.item3{
-    display: grid;
-    grid-column: 3/4;
-    max-height: 210px;
-}
-
-#background1{
+#Home{
     background:url(../img/Background1.png) no-repeat;
     background-size:100%;
     width: 100%;
     height: 100%;
 }
 
-#background1 h1{
+#Home h1{
     font-family: 'PNovareg';
     font-size: 39pt;
     color:black;
     margin-bottom:40px;
 }
 
-#background1 p{
+#Home p{
     font-family: 'PNovareg';
     font-size: 24pt;
 }
 
-#background1 p .btn{
+#Home p .btn{
     color:black;
     border-radius:0rem;
     border-color:black;
     border-width:2pt
 }
 
-#background1 p .btn:hover{
+#Home p .btn:hover{
     color: white;
     background-color: black;
     border-color: black;
@@ -120,44 +85,27 @@ body{
     text-align: center;
 }
 
-.promo{
-    position: absolute;
-    padding-top: 50px;
+#About .container.atas{
     text-align: center;
+    padding: 30px 0px;
 }
 
-#page2{
-    text-align: center;
-}
-
-#page2 .isi .container.atas{
-    left: 0;
-    top: 0;
-    background-color: #ffffff;
-    padding-top: 2%;
-    padding-bottom: 3%;
-}
-
-#page2 .isi .container.atas h4{
+#About .container.atas h4{
     font-family: "PNovasbold";
     font-size: 16pt;
     padding-top: 50px;
     padding-bottom: 25px;
 }
 
-#page2 p{
+#About p{
     font-family: "PNovareg";
     font-size: 11pt;
     color: #666666;
 }
 
 #background2{
-    left: 0;
-    top:0;
     background:url(../img/Background2.png) no-repeat;
     background-size:100%;
-    max-height: 678px;
-    max-width: 100%;
 }
 
 #background2 h2{
@@ -177,73 +125,82 @@ body{
     text-align: left;
 }
 
-#page3 .jumbotron{
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 50px;
-    left: 0;
-    top: 0;
-    background-color: #ffffff;
-    margin-bottom:0px;
-}
-
-#page3 .container .row.partner{
-    padding-bottom: 5%;
-    padding-left: 10%;
-}
-
-#page3 h3{
+#Client h3{
     font-family: "PNovasbold";
     font-size: 18pt;
     color: #000000;
 }
 
-#page3 .container .row.partner img{
+#Client .jumbotron{
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom:0px;
+}
+
+#Client .container .row.partner{
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+#Client .container .row.partner img{
     max-width:75%
 }
 
-#page4 .container-fluid.atas{
+#konten img{
+    width:100%;
+    height:300px;
+    max-height:210px;
+}
+
+#konten .col-sm-4.atas{
+    width:33.3%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#Portofolio .container-fluid.atas{
     background:transparent;
     height: 100%;
     width: 100%;
     padding:0px 0px;
 }
 
-#page4 .container-fluid.atas img{
+#Portofolio .container-fluid.atas img{
     width:100%;
     height:100%;
 }
 
-#page4 .container-fluid.bawah{
+#Portofolio .container-fluid.bawah{
     text-align: center;
     background: #000000;
-    height: 40%
+    height: auto;
 }
 
-#page4 .container-fluid.bawah h3{
+#Portofolio .container-fluid.bawah h3{
     padding-top: 20px;
     color: #ffffff;
     font-family: "PNovasbold";
     font-size: 18pt;
 }
 
-#page4 .container-fluid.bawah h1{
+#Portofolio .container-fluid.bawah h1{
     margin-top:20%;
+    color: #ffffff;
 }
-#page4 .container-fluid.bawah p{
+#Portofolio .container-fluid.bawah p{
     margin-top:10%;
     color: #ffffff;
     font-family: "PNovasbold";
     font-size: 16pt;
 }
 
-#page5 .container{
+#Contact .container{
     margin-left: 28.5%;
     margin-right: 28.5%;
     width: auto;
 }
 
-#page5 h4{
+#Contact h4{
     padding-top: 3%;
     padding-bottom: 2%;
     text-align: center;
@@ -251,13 +208,28 @@ body{
     font-size: 16pt;
 }
 
-#page5 p{
+#Contact p{
     font-family: "PNovasbold";
 }
 
-#page5 label{
+#Contact label{
     font-family: "PNovareg";
     font-size: 12pt;
+}
+
+#Contact .container .col-sm-6 input{
+    border-radius:0.2rem;
+    border-color:black;
+    border-width:1.5pt;
+}
+
+#Contact button{
+    border-radius:0rem;
+    background-color:black;
+    border-color:black;
+    border-width:2pt;
+    font-size:15;
+    padding:0.375rem 1.5rem;
 }
 
 #foot{
@@ -282,6 +254,7 @@ body{
     font-family: "PNovareg";
     color: white;
     line-height: 1.0;
+    padding: .5rem 0px;
 }
 
 #foot p{
@@ -300,4 +273,71 @@ body{
     padding-top:3%;
     padding-bottom: 3%;
     margin-bottom: 0;
+}
+
+#foot button{
+    border-radius:0rem;
+    background-color:black;
+    border-color:white;
+    border-width:2pt; 
+    padding: 0.3rem 1.5rem;
+}
+
+@media screen and (max-width: 500px){
+    #home{
+        height: 45%;
+    }
+
+    #Portofolio .container-fluid.atas{
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #home{
+        height: 80%;
+    }
+
+    #Portofolio .container-fluid.bawah .col-lg-4{
+        width: 33.3%;
+    }
+
+    #Portofolio .container-fluid.bawah{
+        height: auto;
+    }
+
+    #Portofolio .container-fluid.bawah h1,
+    #Portofolio .container-fluid.bawah p{
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    #nav a.logo{
+        width: 200px;
+    }
+
+    #background2 h2{
+        margin:30px 20px;
+        font-size: 32pt;
+    }
+    
+    #background2 p{
+        line-height: 1.3;
+        margin:30px 20px;
+        font-size: 16pt;
+    }
+
+    #konten img{
+        max-height:190px;
+    }
+
+    #Portofolio .container-fluid.atas{
+        height: 90%;
+    }
+
+    #Portofolio .container-fluid.bawah h1,
+    #Portofolio .container-fluid.bawah p{
+        margin-top:10px;
+    }
 }

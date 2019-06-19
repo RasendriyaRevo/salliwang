@@ -11,10 +11,10 @@
     
         <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
             <div class="navbar-nav my-2 my-lg-0">
-                    <a class="white nav-item nav-link" href="#background1" style="color:white">Home</a>
-                    <a class="white nav-item nav-link" href="#page4" style="color:white">Portofolio</a>
-                    <a class="black nav-item nav-link" href="#page2" style="color:black">About</a>
-                    <a class="black nav-item nav-link" href="#page5" style="color:black">Contact</a>
+                    <a class="white nav-item nav-link" href="#Home" style="color:white">Home</a>
+                    <a class="white nav-item nav-link" href="#Portofolio" style="color:white">Portofolio</a>
+                    <a class="black nav-item nav-link" href="#About" style="color:black">About</a>
+                    <a class="black nav-item nav-link" href="#Contact" style="color:black">Contact</a>
             </div>
         </div>
     </div>
@@ -23,11 +23,9 @@
 @endsection
 
 @section('content')
-
-
 <!-- Page 1 -->
-<div id="background1">
-    <div class="container-fluid page1">
+<div id="Home">
+    <div class="container-fluid">
         <div class="tengah">
             <h1>CREATIVE PRODUCTION AGENCY</h1>
             <p><button type="button" class="btn btn-outline-dark btn-lg"><b>READ MORE</b></button></p>  
@@ -37,28 +35,26 @@
 <!-- Page 1 -->
 
 <!-- Page 2 -->
-<div id="page2">
-    <div class="isi">
-        <div class="container atas">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-circle" src="public/img/fast.png">
-                    <h4>Fast Turnaround</h4>
-                    <p class="text-center">We make it easy for you to plan your promotions. 
-                    We offer you fast turnaround, sending you intial design within 24 hours.</p>
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-circle" src="public/img/quality.png">
-                    <h4>Quality Design</h4>
-                    <p class="text-center">We strive for quality design and keep improving it from time to time. 
-                    Our team also provide great services. Your satisfaction is our priority.</p>
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-circle" src="public/img/professional.png">
-                    <h4>Professional Team</h4>
-                    <p class="text-center">Cooperation is the key to success.
-                    We always work in team to get the best result. Every of us will have our own job description.</p>
-                </div>
+<div id="About">
+    <div class="container atas">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-circle" src="img/fast.png">
+                <h4>Fast Turnaround</h4>
+                <p class="text-center">We make it easy for you to plan your promotions. 
+                We offer you fast turnaround, sending you intial design within 24 hours.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-circle" src="img/quality.png">
+                <h4>Quality Design</h4>
+                <p class="text-center">We strive for quality design and keep improving it from time to time. 
+                Our team also provide great services. Your satisfaction is our priority.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="img-circle" src="img/professional.png">
+                <h4>Professional Team</h4>
+                <p class="text-center">Cooperation is the key to success.
+                We always work in team to get the best result. Every of us will have our own job description.</p>
             </div>
         </div>
     </div>
@@ -87,7 +83,7 @@
 
 <!-- Page 3 -->
 
-<div id="page3">
+<div id="Client">
     <div class="container">
         <div class="jumbotron">
             <h3>OUR CLIENT FROM ARROUND THE WORLD</h3>
@@ -96,35 +92,40 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/iNewsTv.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/VIK.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/JNE.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/Sequislife.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/Allianz.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/Tereos FKS.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/IITC Solution.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/Ca2con.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/iNewsTv.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/VIK.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/JNE.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Sequislife.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Allianz.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Tereos FKS.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/IITC Solution.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Ca2con.png"></div></a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row partner">
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/J&T.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/Tokio Marine.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/Hora.png"></div></a>
-                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="public/img/partner/Squeeze.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/BSP.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/Nutify.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/Logo Jeunesse.png"></div></a>
-                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="public/img/partner/You.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/J&T.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Tokio Marine.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Hora.png"></div></a>
+                        <div class="col-sm-3 atas"><a href="#"><img class="img-responsive" src="img/partner/Squeeze.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/BSP.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Nutify.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Logo Jeunesse.png"></div></a>
+                        <div class="col-sm-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/You.png"></div></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="konten">
-        <div class="item1"><img style="width:100%;height:100%" src="public/img/P1.png"></div>
-        <div class="item2"><img style="width:100%;height:100%" src="public/img/P2.png"></div>
-        <div class="item3"><img style="width:100%;height:100%" src="public/img/P3.png"></div>
+   
+    <div id="konten">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 atas"><img class="img-responsive" src="img/P1.png"></div>
+                <div class="col-sm-4 atas"><img class="img-responsive" src="img/P2.png"></div>
+                <div class="col-sm-4 atas"><img class="img-responsive" src="img/P3.png"></div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -132,19 +133,19 @@
 
 <!-- Page 4 -->
 
-<div id="page4">
+<div id="Portofolio">
     <div class="container-fluid atas">
         <div id="portofolio" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active"><img src="public/img/Portofolio/A.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/B.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/C.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/D.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/E.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/F.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/G.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/H.jpg"></div>
-                <div class="carousel-item"><img src="public/img/Portofolio/I.jpg"></div>
+                <div class="carousel-item active"><img src="img/Portofolio/A.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/B.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/C.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/D.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/E.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/F.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/G.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/H.jpg"></div>
+                <div class="carousel-item"><img src="img/Portofolio/I.jpg"></div>
             </div>
 
             <a class="carousel-control-prev" data-target="#portofolio" data-slide="prev">
@@ -158,9 +159,9 @@
     <div class="container-fluid bawah">
         <h3>OUR WORK ON PROGRESS</h3>
         <div class="row">
-            <div class="col-lg-4"><h1 style="color:white">50</h1><p>client</p></div>
-            <div class="col-lg-4"><h1 style="color:white">130</h1><p>project completed</p></div>
-            <div class="col-lg-4"><h1 style="color:white">170</h1><p>design completed</p></div>
+            <div class="col-lg-4"><h1>50</h1><p>client</p></div>
+            <div class="col-lg-4"><h1>130</h1><p>project completed</p></div>
+            <div class="col-lg-4"><h1>170</h1><p>design completed</p></div>
         </div>
     </div>
 </div>
@@ -169,17 +170,17 @@
 
 <!-- Page 5 -->
 
-<div id="page5">
+<div id="Contact">
     <b><h4>REQUEST A QOUTE</h4></b>
     <div class="container">
         <form>
         <label for="name">Name</label>
             <div class="form-row">
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" placeholder="First">
+                    <input type="text" class="form-control" placeholder="First">
                 </div>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" placeholder="Last">
+                    <input type="text" class="form-control"placeholder="Last">
                 </div>
             </div>
             <div class="form-group col-sm-8" style="padding-left:0px; margin-top:12px;">
@@ -190,8 +191,7 @@
                 <label for="help">What can we help you with?</label>
                 <textarea class="form-control" style="border-radius:0.2rem;border-color:black;border-width:1.5pt" id="help" rows="6"></textarea>
             </div>
-            <p><button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:black;border-width:2pt;font-size:15;
-            padding:0.375rem 1.5rem">REQUEST NOW</button></p>
+            <p><button type="button" class="btn btn-dark">REQUEST NOW</button></p>
         </form>
     </div>
 </div>
@@ -201,24 +201,24 @@
 
 @section('foot')
 <div id="foot">
-    <div class="container">
-        <div class="row" style="margin-left:-8%;">
-            <div class="col-sm-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" style="margin-left:30px;">
                 <h4>SWPRODUCTIONID</h4>
                 <nav class="nav flex-column">
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Home</a>
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Portofolio</a>
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">About</a>
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Contact</a>
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Portofolio</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link"" href="#">Contact</a>
                 </nav>
             </div>
-            <div class="col-sm-3" style="padding-left:70px;">
+            <div class="col-sm-3" style="margin-left:15 px;">
                 <h4>About</h4>
                 <nav class="nav flex-column">
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Our Process</a>
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">FAQ</a>
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Privacy Policy</a>
-                    <a class="nav-link" style="padding: .5rem 0px;" href="#">Terms & Conditions</a>
+                    <a class="nav-link" href="#">Our Process</a>
+                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                    <a class="nav-link" href="#">Terms & Conditions</a>
                 </nav>
             </div>
             <div class="col-sm-3">
@@ -227,10 +227,10 @@
                     <label for="email"><h5>Get SW Production new content, updates, survey & offers</h5></label>
                     <input type="email" class="form-control" id="inputEmail4" style="height:auto; border-radius:0; padding:0 0;" placeholder="Email Address">
                 </div>
-                <button type="button" class="btn btn-dark" style="border-radius:0rem;background-color:black;border-color:white;border-width:2pt; padding: 0.3rem 1.5rem">SUBSCRIBE</button>
+                <button type="button" class="btn btn-dark" >SUBSCRIBE</button>
             </div>
         </div>
-        <p style="margin-left:-8%; padding-left:15;">Designed by <b>SW Production</b> | Copyright © 2019 <b>SWPRODUCTIONID</b></p>
+        <p style="margin-left:30px;">Designed by <b>SWPRODUCTIONID</b> | Copyright © 2019 <b>SWPRODUCTIONID</b></p>
     </div>
 </div>
 @endsection
