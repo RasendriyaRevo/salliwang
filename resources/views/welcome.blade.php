@@ -6,7 +6,7 @@
     <div class="container-fluid" id="navbar">
         <a class="navbar-brand logo" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon a"></span>
         </button>
     
         <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
@@ -135,25 +135,16 @@
 
 <div id="Portofolio">
     <div class="container-fluid atas">
-        <div id="portofolio" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active"><img src="img/Portofolio/A.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/B.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/C.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/D.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/E.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/F.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/G.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/H.jpg"></div>
-                <div class="carousel-item"><img src="img/Portofolio/I.jpg"></div>
-            </div>
-
-            <a class="carousel-control-prev" data-target="#portofolio" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" data-target="#portofolio" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+        <div class="row">
+            <div class="col-sm-4"><img src="img/Portofolio/A.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/B.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/C.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/D.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/E.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/F.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/G.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/H.jpg"></div>
+            <div class="col-sm-4"><img src="img/Portofolio/I.jpg"></div>
         </div>
     </div>
     <div class="container-fluid bawah">
@@ -206,10 +197,10 @@
             <div class="col-sm-3">
                 <h4>SWPRODUCTIONID</h4>
                 <nav class="nav flex-column">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Portofolio</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link"" href="#">Contact</a>
+                    <a class="nav-link" href="#Home">Home</a>
+                    <a class="nav-link" href="#Portofolio">Portofolio</a>
+                    <a class="nav-link" href="#About">About</a>
+                    <a class="nav-link"" href="#Contact">Contact</a>
                 </nav>
             </div>
             <div class="col-sm-3">
