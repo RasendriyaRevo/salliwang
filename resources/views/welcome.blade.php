@@ -1,6 +1,11 @@
 @extends('header')
 @section('title','SALLI WANG PRODUCTION')
 @section('head')
+
+@endsection
+
+@section('content')
+
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" id="nav">
     <div class="container-fluid" id="navbar">
@@ -10,7 +15,7 @@
         </button>
     
         <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav my-2 my-lg-0">
+            <div class="navbar-nav my-2 my-lg-0 ml-auto">
                     <a class="white nav-item nav-link" href="#Home" style="color:white">Home</a>
                     <a class="white nav-item nav-link" href="#Portofolio" style="color:white">Portofolio</a>
                     <a class="black nav-item nav-link" href="#About" style="color:black">About</a>
@@ -20,12 +25,9 @@
     </div>
 </nav>
 <!-- Navbar -->
-@endsection
-
-@section('content')
 <!-- Page 1 -->
 <div id="Home">
-    <div class="container-fluid">
+    <div class="jumbotron">
         <div class="tengah">
             <h1>CREATIVE PRODUCTION AGENCY</h1>
             <p><button type="button" class="btn btn-outline-dark btn-lg"><b>READ MORE</b></button></p>  
@@ -102,6 +104,7 @@
                         <div class="col-lg-3 bawah"><a href="#"><img class="img-responsive" src="img/partner/Ca2con.png"></div></a>
                     </div>
                 </div>
+                
                 <div class="carousel-item">
                     <div class="row partner">
                         <div class="col-lg-3 atas"><a href="#"><img class="img-responsive" src="img/partner/J&T.png"></div></a>

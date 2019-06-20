@@ -48,8 +48,10 @@ body{
 #Home{
     background:url(../img/Background1.png) no-repeat;
     background-size:100%;
-    width: 100%;
-    height: 100%;
+}
+
+#home .jumbotron{
+    background-color: transparent;
 }
 
 #Home h1{
@@ -78,10 +80,8 @@ body{
 }
 
 .tengah{
-    position: absolute;
-    left: 0;
-    margin-top: 25%;
-    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%; 
     text-align: center;
 }
 
@@ -158,6 +158,10 @@ body{
     padding-left: 0px;
 }
 
+#Portofolio .container-fluid.atas{
+    height: auto;
+}
+
 #Portofolio .container-fluid.atas img{
     width:100%;
     height: 300px;
@@ -165,6 +169,7 @@ body{
 }
 
 #Portofolio .container-fluid.atas .col-sm-4{
+    width:33.3%;
     padding-right: 0px;
     padding-left: 0px;
 }
@@ -293,51 +298,58 @@ body{
 layar kecil
 ==========================================*/
 
-@media screen and (max-width: 500px){
+@media (min-width: 992px){
+    #background2{
+        background-size: cover;
+    }
+}
+
+@media (max-width: 992px){
     #nav a.logo{
-        width: 25%;
+        width: 40%;
     }
 
     #home{
-        height: 45%;
-    }
-
-    #home h1{
-        font-size: 18px;
+        background-size: cover;
     }
 
     #background2{
-        background-size: auto;
+        background-size: cover;
     }
 
-    #Portofolio .container-fluid.atas{
-        height: 40%;
+    #konten .col-sm-4.atas,
+    #Portofolio .container-fluid.atas .col-sm-4{
+        width: auto;
     }
 
     #Client .container .row.partner{
-        text-align: center;
-        padding-left: 0%;
+        padding-bottom: 5%;
+        padding-left: 20%;
+    }
+    
+    #Client .container .row.partner .col-lg-3{
+        width:40%
     }
 
-    #konten img{
-        max-height: 120px;
+    #Portofolio .container-fluid.bawah h1{
+        margin-top:5%;
+    }
+    
+    #Portofolio .container-fluid.bawah p{
+        margin-top:0%;
+    }
+
+    #Contact .form-row{
+        flex-wrap: unset;
     }
 
     #Contact .container{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #Contact .container .form-row{
-        flex-wrap: unset;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     #foot .container-fluid .row .col-sm-3,
     #foot .container-fluid p{
-        margin-left: 20px;
-    }
-
-    #foot .container-fluid .row .col-sm-3 .form-group{
-        margin-right: 20px;
+        margin-left: 25px;
     }
 }
