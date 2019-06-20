@@ -306,7 +306,8 @@ layar kecil
 
 @media (max-width: 992px){
     #nav a.logo{
-        width: 40%;
+        height: 40px;
+        width: 160px;
     }
 
     #home{
@@ -344,8 +345,8 @@ layar kecil
     }
 
     #Contact .container{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #foot .container-fluid .row .col-sm-3,
