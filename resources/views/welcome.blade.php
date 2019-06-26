@@ -203,7 +203,7 @@
                     <a class="nav-link" href="#Home">Home</a>
                     <a class="nav-link" href="#Portofolio">Portofolio</a>
                     <a class="nav-link" href="#About">About</a>
-                    <a class="nav-link"" href="#Contact">Contact</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
                 </nav>
             </div>
             <div class="col-sm-3">

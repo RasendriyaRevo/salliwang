@@ -294,6 +294,74 @@ body{
     padding: 0.3rem 1.5rem;
 }
 
+
+/*========================================
+            Contact Styles
+==========================================*/
+#contactus{
+    background:url(../img/Background3.png) no-repeat;
+    background-size:100%;
+    height: auto;
+}
+
+
+#contactform .container .form-control{
+    border-color:black;
+}
+
+#contactus .container-fluid h1{
+    padding-top: 195px;
+    padding-bottom: 120px; 
+    text-align: center;
+}
+
+#contactform .container{
+    margin: 0px 350px;
+    width: auto;
+}
+
+
+#contactform .container .set{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#contactform button{
+    border-radius:0rem;
+    background-color:black;
+    border-color:black;
+    border-width:2pt;
+    font-size:15;
+    padding:0.375rem 1.5rem;
+}
+
+#contactform h4,
+#contactform p{
+    text-align: center;
+}
+
+#contactform #contactperson p{
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+#contactform #contactperson{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+#contactform label{
+    font-family: "PNovareg";
+    font-size: 14pt;
+}
+
+#contactform #text{
+    margin:75px 0px;
+    font-family: "PNovareg";
+}
+
 /*========================================
 layar kecil
 ==========================================*/
@@ -307,7 +375,7 @@ layar kecil
 @media (max-width: 992px){
     #nav a.logo{
         height: 40px;
-        width: 160px;
+        width:160px;
     }
 
     #home{

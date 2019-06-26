@@ -1,5 +1,9 @@
 <html>
     <head>
+        <meta property="og:title" content="SALLI WANG PRODUCTION"/>
+        <meta property="og:description" content="swproductionid - Creative Design Agency"/>
+        <meta property="og:image" content="https://swproductionid.com/public/img/thumbnails.png" />
+        
         <title>@yield('title')</title>
         @yield('head')
         <link href="css/bootstrap.min.css" rel="stylesheet" >
