@@ -15,10 +15,10 @@
     
         <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
             <div class="navbar-nav my-2 my-lg-0 ml-auto">
-                    <a class="black nav-item nav-link" href="#Home" style="color:black">Home</a>
+                    <a class="black nav-item nav-link" href="/" style="color:black">Home</a>
                     <a class="black nav-item nav-link" href="#Portofolio" style="color:black">Portofolio</a>
                     <a class="black nav-item nav-link" href="#About" style="color:black">About</a>
-                    <a class="black nav-item nav-link" href="#Contact" style="color:black">Contact</a>
+                    <a class="black nav-item nav-link" href="/contact" style="color:black">Contact</a>
             </div>
         </div>
     </div>

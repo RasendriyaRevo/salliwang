@@ -19,7 +19,7 @@
                     <a class="white nav-item nav-link" href="#Home" style="color:white">Home</a>
                     <a class="white nav-item nav-link" href="#Portofolio" style="color:white">Portofolio</a>
                     <a class="black nav-item nav-link" href="#About" style="color:black">About</a>
-                    <a class="black nav-item nav-link" href="Contact" style="color:black">Contact</a>
+                    <a class="black nav-item nav-link" href="contact" style="color:black">Contact</a>
             </div>
         </div>
     </div>
