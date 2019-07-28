@@ -7,7 +7,7 @@
         <title>@yield('title')</title>
         <nav class="navbar navbar-expand-lg navbar-light" id="nav">
             <div class="container-fluid" id="navbar">
-                <a class="navbar-brand logo" href="#"></a>
+                <a class="navbar-brand logo" href="/"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon a"></span>
                 </button>
@@ -15,7 +15,7 @@
                 <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav my-2 my-lg-0 ml-auto">
                             <a class="white nav-item nav-link" href="/" style="color:white">Home</a>
-                            <a class="white nav-item nav-link" href="Portofolio" style="color:white">Portfolio</a>
+                            <a class="white nav-item nav-link" href="#" style="color:white">Portfolio</a>
                             <a class="black nav-item nav-link" href="about" style="color:black">About</a>
                             <a class="black nav-item nav-link" href="contact" style="color:black">Contact</a>
                     </div>
@@ -33,8 +33,8 @@
                     <div class="col-sm-3">
                         <h4>SWPRODUCTIONID</h4>
                         <nav class="nav flex-column">
-                            <a class="nav-link" href="/">Home</a>
-                            <a class="nav-link" href="Portofolio">Portofolio</a>
+                            <a class="nav-link" href="home">Home</a>
+                            <a class="nav-link" href="#">Portfolio</a>
                             <a class="nav-link" href="about">About</a>
                             <a class="nav-link" href="contact">Contact</a>
                         </nav>
