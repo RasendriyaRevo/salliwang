@@ -14,3 +14,5 @@
 Route::get('/','HomeController@home');
 
 Route::get('/contact', 'HomeController@contact');
+
+Route::get('/about', 'HomeController@about');

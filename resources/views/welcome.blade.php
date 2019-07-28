@@ -1,30 +1,7 @@
 @extends('header')
 @section('title','SALLI WANG PRODUCTION')
-@section('head')
-
-@endsection
 
 @section('content')
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light" id="nav">
-    <div class="container-fluid" id="navbar">
-        <a class="navbar-brand logo" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon a"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" style="justify-content:flex-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav my-2 my-lg-0 ml-auto">
-                    <a class="white nav-item nav-link" href="#Home" style="color:white">Home</a>
-                    <a class="white nav-item nav-link" href="#Portofolio" style="color:white">Portofolio</a>
-                    <a class="black nav-item nav-link" href="#About" style="color:black">About</a>
-                    <a class="black nav-item nav-link" href="contact" style="color:black">Contact</a>
-            </div>
-        </div>
-    </div>
-</nav>
-<!-- Navbar -->
 <!-- Page 1 -->
 <div id="Home">
     <div class="jumbotron">
@@ -120,16 +97,6 @@
             </div>
         </div>
     </div>
-   
-    <div id="konten">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4 atas"><img class="img-responsive" src="img/P1.png"></div>
-                <div class="col-sm-4 atas"><img class="img-responsive" src="img/P2.png"></div>
-                <div class="col-sm-4 atas"><img class="img-responsive" src="img/P3.png"></div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <!-- Page 3 -->
@@ -139,15 +106,18 @@
 <div id="Portofolio">
     <div class="container-fluid atas">
         <div class="row">
-            <div class="col-sm-4"><img src="img/Portofolio/A.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/B.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/C.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/D.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/E.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/F.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/G.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/H.jpg"></div>
-            <div class="col-sm-4"><img src="img/Portofolio/I.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P1.png"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P2.png"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P3.png"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P4.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P5.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P6.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P7.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P8.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P9.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P10.jpg"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P11.png"></div>
+            <div class="col-sm-4 grayscale"><img src="img/Portofolio/P12.jpg"></div>
         </div>
     </div>
     <div class="container-fluid bawah">
@@ -191,40 +161,4 @@
 </div>
 
 <!-- Page 5 -->
-@endsection
-
-@section('foot')
-<div id="foot">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3">
-                <h4>SWPRODUCTIONID</h4>
-                <nav class="nav flex-column">
-                    <a class="nav-link" href="#Home">Home</a>
-                    <a class="nav-link" href="#Portofolio">Portofolio</a>
-                    <a class="nav-link" href="#About">About</a>
-                    <a class="nav-link" href="#Contact">Contact</a>
-                </nav>
-            </div>
-            <div class="col-sm-3">
-                <h4>About</h4>
-                <nav class="nav flex-column">
-                    <a class="nav-link" href="#">Our Process</a>
-                    <a class="nav-link" href="#">FAQ</a>
-                    <a class="nav-link" href="#">Privacy Policy</a>
-                    <a class="nav-link" href="#">Terms & Conditions</a>
-                </nav>
-            </div>
-            <div class="col-sm-3">
-                <h4>Email Newsletter</h4>
-                <div class="form-group">
-                    <label for="email"><h5>Get SW Production new content, updates, survey & offers</h5></label>
-                    <input type="email" class="form-control" id="inputEmail4" style="height:auto; border-radius:0; padding:0 0;" placeholder="Email Address">
-                </div>
-                <button type="button" class="btn btn-dark" >SUBSCRIBE</button>
-            </div>
-        </div>
-        <p>Designed by <b>SWPRODUCTIONID</b> | Copyright © 2019 <b>SWPRODUCTIONID</b></p>
-    </div>
-</div>
 @endsection
