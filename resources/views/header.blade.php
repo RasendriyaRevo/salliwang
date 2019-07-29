@@ -3,10 +3,11 @@
         <meta property="og:title" content="SALLI WANG PRODUCTION"/>
         <meta property="og:description" content="swproductionid - Creative Design Agency"/>
         <meta property="og:image" content="https://swproductionid.com/public/img/thumbnails.png" />
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>@yield('title')</title>
         <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-            <div class="container-fluid" id="navbar">
+            <div class="container-fluid" id="navbar" style="margin-top: 5px;">
                 <a class="navbar-brand logo" href="/"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon a"></span>
@@ -22,7 +23,7 @@
                 </div>
             </div>
         </nav>
-    <head>
+    </head>
     <body>
         @yield('content')
     </body>
