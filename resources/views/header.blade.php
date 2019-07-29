@@ -33,7 +33,7 @@
                     <div class="col-sm-3">
                         <h4>SWPRODUCTIONID</h4>
                         <nav class="nav flex-column">
-                            <a class="nav-link" href="home">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                             <a class="nav-link" href="#">Portfolio</a>
                             <a class="nav-link" href="about">About</a>
                             <a class="nav-link" href="contact">Contact</a>
