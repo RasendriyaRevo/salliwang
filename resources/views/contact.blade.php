@@ -14,7 +14,7 @@
         <h4 style="margin-bottom:60px"><b>Any question?</b></h4>
         <p>Feel free to contact us by filling the form below</p>
     </div>
-    <div class="container">
+    <div class="container" id="contact">
         <form>
         <label for="name">Name</label>
             <div class="form-row">

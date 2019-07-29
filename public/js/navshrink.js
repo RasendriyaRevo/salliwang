@@ -2,9 +2,9 @@ $(document).ready(function(){
     var a = window.location.href;
     if(a == "http://127.0.0.1:8000/about" || a == "http://127.0.0.1:8000/contact"){
         $('#nav').addClass('shrink');
-            $("#nav a").css('color', 'white');
-            $("#nav a.logo").css('background','url(img/SWProductionWhite.png) no-repeat');
-            $("#nav a.logo").css('background-size','100%');
+        $("#nav a").css('color', 'white');
+        $("#nav a.logo").css('background','url(img/SWProductionWhite.png) no-repeat');
+        $("#nav a.logo").css('background-size','100%');
     }else{
         $(window).scroll(function(){
             if($(this).scrollTop() > 150 && !$('#nav').hasClass('shrink')){

@@ -10,7 +10,7 @@
 </div>
 
 <div id="pageform">
-    <div id="text" style="margin:75px 200px">
+    <div id="text">
         <p>Founded on 2013, SWPROUCTIONID works in the digital marketing segment. 
 We wanted to create a company that blurred the line between friends, co-workers and the clients. In these 6 years, we have worked hard, grown and evolved by working with various brands/people all over the world. Like what our vision is, we aim to be the biggest digital creative agency in the world and help solving all your business problems. </p>
     </div>

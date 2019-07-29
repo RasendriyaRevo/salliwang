@@ -24,7 +24,6 @@ body{
 }
 
 #nav.shrink{
-    height: 70px;
     transition: all ease .5s;
     background: black;
 }
@@ -349,7 +348,7 @@ body{
 }
 
 #pageform #text{
-    margin:75px 0px;
+    margin:75px 200px;
     font-family: "PNovareg";
 }
 
@@ -417,6 +416,11 @@ layar kecil
     #background2{
         background-size: cover;
     }
+
+    #pageform .container#contact {
+        margin: 0px 250px;
+        width: auto;
+    }
 }
 
 @media (max-width: 992px){
@@ -468,6 +472,41 @@ layar kecil
     #foot .container-fluid p{
         margin-left: 25px;
     }
+
+    #page{
+        background-size: cover;
+    }
+
+    #pageform #text{
+        margin:5% 5%;
+        font-family: "PNovareg";
+    }
+
+    #pageform .container#about {
+        margin: 10% 10%;
+    }
+
+    #pageform .container#contact {
+        margin: 0px 100px;
+    }
+
+    .h4, h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px){
+    #pageform #accordionAbout .card .row {
+        flex-wrap: unset;
+    }
+    
+    #pageform .container#contact {
+        margin: 0px 50px;
+    }
+
+    .h4, h4 {
+        font-size: 1.2rem;
+    }
 }
 
 /* Filter */
@@ -480,4 +519,12 @@ layar kecil
 .grayscale img:hover {
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler{
+    border-color: rgba(255, 255, 255, 0.50);
 }
