@@ -3,6 +3,7 @@
         <meta property="og:title" content="SALLI WANG PRODUCTION"/>
         <meta property="og:description" content="swproductionid - Creative Design Agency"/>
         <meta property="og:image" content="https://swproductionid.com/public/img/thumbnails.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>@yield('title')</title>
         <nav class="navbar navbar-expand-lg navbar-light" id="nav">
