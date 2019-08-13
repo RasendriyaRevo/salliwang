@@ -13,14 +13,6 @@ body{
     src: url("../font/Proxima Nova-Sbold.otf");
 }
 
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
 #nav{
     height: 70px;
     background: transparent;
@@ -32,132 +24,79 @@ body{
 }
 
 #nav.shrink{
-    height: 70px;
     transition: all ease .5s;
     background: black;
 }
 
-#nav.shrink #navbar{
-    transition: all ease .5s;
-}
-
 #nav a.logo{
-    background:url(../img/SWProductionBlack.png) no-repeat;
+    background:url(../img/swproductionblack.png) no-repeat;
     background-size:100%;
     width:15%;
     height:40px;
+    margin-left: 10px;
 }
 
-.navbar .container{
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.collapse .navbar-nav .nav-item{
-    padding-right: 20px;
-}
-
-.konten{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-}
-
-.item1{
-    display: grid;
-    grid-column: 1/2;
-    max-height: 210px;
-}
-
-.item2{
-    display: grid;
-    grid-column: 2/3;
-    max-height: 210px;
-}
-
-.item3{
-    display: grid;
-    grid-column: 3/4;
-    max-height: 210px;
-}
-
-#background1{
-    background:url(../img/Background1.png) no-repeat;
+#Home{
+    background:url(../img/background1.jpg) no-repeat;
     background-size:100%;
-    width: 100%;
-    height: 100%;
 }
 
-#background1 h1{
+#home .jumbotron{
+    background-color: transparent;
+}
+
+#Home h1{
     font-family: 'PNovareg';
     font-size: 39pt;
     color:black;
     margin-bottom:40px;
 }
 
-#background1 p{
+#Home p{
     font-family: 'PNovareg';
     font-size: 24pt;
 }
 
-#background1 p .btn{
+#Home p .btn{
     color:black;
     border-radius:0rem;
     border-color:black;
     border-width:2pt
 }
 
-#background1 p .btn:hover{
+#Home p .btn:hover{
     color: white;
     background-color: black;
     border-color: black;
 }
 
 .tengah{
-    position: absolute;
-    left: 0;
-    margin-top: 25%;
-    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%; 
     text-align: center;
 }
 
-.promo{
-    position: absolute;
-    padding-top: 50px;
+#About .container.atas{
     text-align: center;
+    padding: 30px 0px;
 }
 
-#page2{
-    text-align: center;
-}
-
-#page2 .isi .container.atas{
-    left: 0;
-    top: 0;
-    background-color: #ffffff;
-    padding-top: 2%;
-    padding-bottom: 3%;
-}
-
-#page2 .isi .container.atas h4{
+#About .container.atas h4{
     font-family: "PNovasbold";
     font-size: 16pt;
     padding-top: 50px;
     padding-bottom: 25px;
 }
 
-#page2 p{
+#About p{
     font-family: "PNovareg";
     font-size: 11pt;
     color: #666666;
 }
 
 #background2{
-    left: 0;
-    top:0;
-    background:url(../img/Background2.png) no-repeat;
+    background:url(../img/background2.jpg) no-repeat;
     background-size:100%;
-    max-height: 678px;
-    max-width: 100%;
 }
 
 #background2 h2{
@@ -177,73 +116,87 @@ body{
     text-align: left;
 }
 
-#page3 .jumbotron{
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 50px;
-    left: 0;
-    top: 0;
-    background-color: #ffffff;
-    margin-bottom:0px;
-}
-
-#page3 .container .row.partner{
-    padding-bottom: 5%;
-    padding-left: 10%;
-}
-
-#page3 h3{
+#Client h3{
     font-family: "PNovasbold";
     font-size: 18pt;
     color: #000000;
 }
 
-#page3 .container .row.partner img{
+#Client .jumbotron{
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom:0px;
+}
+
+#Client .container .row.partner{
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+#Client .container .row.partner img{
     max-width:75%
 }
 
-#page4 .container-fluid.atas{
-    background:transparent;
-    height: 100%;
-    width: 100%;
-    padding:0px 0px;
-}
-
-#page4 .container-fluid.atas img{
+#konten img{
     width:100%;
-    height:100%;
+    height:300px;
+    max-height:210px;
 }
 
-#page4 .container-fluid.bawah{
+#konten .col-sm-4.atas{
+    width:33.3%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#Portofolio .container-fluid.atas{
+    height: auto;
+}
+
+#Portofolio .container-fluid.atas img{
+    width:100%;
+    height: 300px;
+    max-height:210px;
+}
+
+#Portofolio .container-fluid.atas .col-sm-4{
+    width:33.3%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#Portofolio .container-fluid.bawah{
     text-align: center;
     background: #000000;
-    height: 40%
+    height: auto;
 }
 
-#page4 .container-fluid.bawah h3{
+#Portofolio .container-fluid.bawah h3{
     padding-top: 20px;
     color: #ffffff;
     font-family: "PNovasbold";
     font-size: 18pt;
 }
 
-#page4 .container-fluid.bawah h1{
+#Portofolio .container-fluid.bawah h1{
     margin-top:20%;
+    color: #ffffff;
 }
-#page4 .container-fluid.bawah p{
+
+#Portofolio .container-fluid.bawah p{
     margin-top:10%;
     color: #ffffff;
     font-family: "PNovasbold";
     font-size: 16pt;
 }
 
-#page5 .container{
+#Contact .container{
     margin-left: 28.5%;
     margin-right: 28.5%;
     width: auto;
 }
 
-#page5 h4{
+#Contact h4{
     padding-top: 3%;
     padding-bottom: 2%;
     text-align: center;
@@ -251,13 +204,28 @@ body{
     font-size: 16pt;
 }
 
-#page5 p{
+#Contact p{
     font-family: "PNovasbold";
 }
 
-#page5 label{
+#Contact label{
     font-family: "PNovareg";
     font-size: 12pt;
+}
+
+#Contact .container .col-sm-6 input{
+    border-radius:0.2rem;
+    border-color:black;
+    border-width:1.5pt;
+}
+
+#Contact button{
+    border-radius:0rem;
+    background-color:black;
+    border-color:black;
+    border-width:2pt;
+    font-size:15;
+    padding:0.375rem 1.5rem;
 }
 
 #foot{
@@ -271,6 +239,12 @@ body{
     font-family: "PNovasbold";
 }
 
+
+#foot .container-fluid .row .col-sm-3,
+#foot .container-fluid p{
+    margin-left: 40px;
+}
+
 #foot h4{
     font-family: "PNovareg";
     font-weight: 700;
@@ -282,6 +256,7 @@ body{
     font-family: "PNovareg";
     color: white;
     line-height: 1.0;
+    padding: .5rem 0px;
 }
 
 #foot p{
@@ -300,4 +275,264 @@ body{
     padding-top:3%;
     padding-bottom: 3%;
     margin-bottom: 0;
+}
+
+#foot button{
+    border-radius:0rem;
+    background-color:black;
+    border-color:white;
+    border-width:2pt; 
+    padding: 0.3rem 1.5rem;
+}
+
+
+/*========================================
+            Contact Styles
+==========================================*/
+#page{
+    background:url(../img/background4.jpg) no-repeat;
+    background-size:100%;
+    height: auto;
+    background-position-y: 70px;
+}
+
+#pageform .container .form-control{
+    border-color:black;
+}
+
+#page .container-fluid h1{
+    padding-top: 195px;
+    padding-bottom: 120px; 
+    text-align: center;
+}
+
+#pageform .container{
+    margin: 0px 350px;
+    width: auto;
+}
+
+#pageform .container .set{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#pageform button{
+    border-radius:0rem;
+    background-color:black;
+    border-color:black;
+    border-width:2pt;
+    font-size:15;
+    padding:0.375rem 1.5rem;
+}
+
+#pageform h4,
+#pageform p{
+    text-align: center;
+}
+
+#pageform #contactperson p{
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+#pageform #contactperson{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+#pageform label{
+    font-family: "PNovareg";
+    font-size: 14pt;
+}
+
+#pageform #text{
+    margin:75px 200px;
+    font-family: "PNovareg";
+}
+
+/* About */
+#pageform .container#about{
+    margin: 150px 200px;
+}
+
+#pageform #about img{
+    width: 30;
+}
+
+#pageform #accordionAbout .card-header{
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #000000;
+    border-bottom: 0;
+}
+
+#pageform #accordionAbout .card,
+#pageform #accordionAbout .card-header:first-child{
+    border-radius: 0;
+    border: 0;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+#pageform #accordionAbout .card p{
+    font-size: 15pt;
+    color: white;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#pageform #collapseOne .card-body p,
+#pageform #collapseTwo .card-body p,
+#pageform #collapseThree .card-body p{
+    font-size: 12pt;
+    color: black;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+#pageform #accordionAbout .card .row{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15%;
+}
+
+#pageform #accordionAbout .card .row .col-sm-4{
+    padding-left: 10%;
+}
+
+#pageform #accordionAbout .btn{
+    padding: 6px 0px;
+    margin: 0px 150px;
+    display: flex;
+}
+
+/*========================================
+layar kecil
+==========================================*/
+
+@media (min-width: 992px){
+    #background2{
+        background-size: cover;
+    }
+
+    #pageform .container#contact {
+        margin: 0px 250px;
+        width: auto;
+    }
+}
+
+@media (max-width: 992px){
+    #nav a.logo{
+        height: 40px;
+        width:160px;
+    }
+
+    #navbarNavAltMarkup{
+        justify-content: flex-end;
+        background-color: black;
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-left: 40px;
+    }
+
+    #home{
+        background-size: cover;
+    }
+
+    #background2{
+        background-size: cover;
+    }
+
+    #konten .col-sm-4.atas,
+    #Portofolio .container-fluid.atas .col-sm-4{
+        width: auto;
+    }
+
+    #Client .container .row.partner{
+        padding-bottom: 5%;
+        padding-left: 20%;
+    }
+    
+    #Client .container .row.partner .col-lg-3{
+        width:40%
+    }
+
+    #Portofolio .container-fluid.bawah h1{
+        margin-top:5%;
+    }
+    
+    #Portofolio .container-fluid.bawah p{
+        margin-top:0%;
+    }
+
+    #Contact .form-row{
+        flex-wrap: unset;
+    }
+
+    #Contact .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #foot .container-fluid .row .col-sm-3,
+    #foot .container-fluid p{
+        margin-left: 25px;
+    }
+
+    #page{
+        background-size: cover;
+    }
+
+    #pageform #text{
+        margin:5% 5%;
+        font-family: "PNovareg";
+    }
+
+    #pageform .container#about {
+        margin: 10% 10%;
+    }
+
+    #pageform .container#contact {
+        margin: 0px 100px;
+    }
+
+    .h4, h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px){
+    #pageform #accordionAbout .card .row {
+        flex-wrap: unset;
+    }
+    
+    #pageform .container#contact {
+        margin: 0px 50px;
+    }
+
+    .h4, h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Filter */
+.grayscale img {
+    transition: .5s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+}
+
+.grayscale img:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler{
+    border-color: rgba(255, 255, 255, 0.50);
 }
