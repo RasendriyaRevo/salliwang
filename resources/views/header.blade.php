@@ -1,11 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta property="og:title" content="SALLI WANG PRODUCTION"/>
-        <meta property="og:description" content="swproductionid - Creative Design Agency"/>
         <meta property="og:image" content="https://swproductionid.com/public/img/thumbnails.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="SALLI WANG PRODUCTION - Creative Design Agency" />
+        <meta property="og:description" content="swproductionid - Creative Design Agency" />
+        <meta property="og:url" content="https://swproductionid.com/" />
+        <meta property="og:site_name" content="SALLI WANG PRODUCTION" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content="swproductionid - Creative Design Agency" />
+        <meta name="twitter:title" content="SALLI WANG PRODUCTION - Creative Design Agency" />
+        <meta name="twitter:site" content="https://swproductionid.com/" />
+        <meta name="description" content="swproductionid - Creative Design Agency"/>
         <title>@yield('title')</title>
+    </head>
+    <body>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light" id="nav">
             <div class="container-fluid" id="navbar" style="margin-top: 5px;">
                 <a class="navbar-brand logo" href="/"></a>
@@ -23,10 +35,10 @@
                 </div>
             </div>
         </nav>
-    </head>
-    <body>
+    </header>
+
         @yield('content')
-    </body>
+        
     <footer>
         <div id="foot">
             <div class="container-fluid">
@@ -67,4 +79,5 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <link href="css/styles.css" rel="stylesheet" >
     </footer>
-<html>
+    </body>
+</html>
